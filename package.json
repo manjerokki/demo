@@ -2,6 +2,11 @@
   "name": "demo",
   "version": "0.0.1",
   "scripts": {"start": "node server.js"},
-  "dependencies": {"express": "4.12.4"}
+  "dependencies": {"express": "4.12.4"},
+  "devDependencies": {
+    "mocha": "2.2.5",
+    "should": "6.0.3",
+    "supertest": "1.0.1"
+  }
 }
 
