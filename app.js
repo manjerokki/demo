@@ -11,4 +11,7 @@ app.use(express.static(__dirname + '/public'))
 app.get('/', function (req, res) { res.redirect('/home') })
 app.get('/home', pages.home)
 
+// app.get('/about', function (req, res) { res.redirect('/about') })
+app.get('/about', pages.about)
+
 module.exports = app
